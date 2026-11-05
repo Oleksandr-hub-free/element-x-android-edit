@@ -12,5 +12,5 @@ object ElementCallConfig {
     /**
      * The default duration of a ringing call in seconds before it's automatically dismissed.
      */
-    const val RINGING_CALL_DURATION_SECONDS = 90
+    const val RINGING_CALL_DURATION_SECONDS = 120
 }

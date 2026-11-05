@@ -442,8 +442,8 @@ class DefaultActiveCallManagerTest {
         assertThat(manager.activeCall.value).isNull()
 
         val eventTimestamp = A_FAKE_TIMESTAMP
-        // The call should not ring more than 30 seconds after the initial event was sent
-        val expirationTimestamp = eventTimestamp + 30_000
+        // The call should not ring more than 60 seconds after the initial event was sent
+        val expirationTimestamp = eventTimestamp + 60_000
 
         val callNotificationData = aCallNotificationData(
             timestamp = eventTimestamp,
